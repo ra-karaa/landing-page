@@ -7,7 +7,7 @@ export default function Footer(){
                 <Row className="mt-2">
                     <Col md={12}>
                         <div className="text-center text-black font-title">
-                            <p className="mb-0 f-15"> 2022 &copy; Fietra Prabaskara</p>
+                            <p className="mb-0 f-15"> 2022 &copy; CV. Samantha Rezky</p>
                         </div>
                     </Col>
                 </Row>

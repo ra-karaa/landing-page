@@ -9,7 +9,7 @@ import Slider from '../components/Slider'
 
 export default function Home() {
   return (
-    <Layout pageTitle="Fietra Prabaskara">
+    <Layout pageTitle="CV. Samantha Rezky">
       <Header/>
       <Hero/>
       <Feature/>
