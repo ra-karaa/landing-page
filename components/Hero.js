@@ -9,17 +9,17 @@ export default function Hero(){
                     <Col lg="6">
                         <div className="pr-lg-5">
                             <p className="text-uppercase font-weight-medium f-14 mb-4 font-desc">
-                                Landing Page Out Standing
+                                Layanan Jasa 
                             </p>
                             <h1 className="mb-4 font-weight-normal line-height-1_4 font-title">
-                                Simply dummy text of the printing 
-                                 <span className="text-primary font-weight-medium"> Name </span>
+                                Buat Plaform Anda untuk Bisnis
+                                 <span className="text-primary font-weight-medium"> Digital </span>
                             </h1>
                             <p className="text-justify mb-4 pb-2 text-dark font-desc">
-                                Lorem Ipsum has been the industyrs standard dummy text ever since the 1500s, when an uknumn printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                Konsultasi dan Pengembangan Perangkat lunak untuk kesuksesan Digital Anda dan Berkembang Bersama Ciptakan Era digital Menyongsong Perkembangan Teknologi Industri 5.0
                             </p>
                             <a href="#" className="btn btn-warning font-title">
-                                Find Out How <span className="ml-2 right-icon">&#8594;</span>
+                                Cara Kerja Kami <span className="ml-2 right-icon">&#8594;</span>
                             </a>
                         </div>
                     </Col>

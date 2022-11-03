@@ -3,14 +3,34 @@ var $ = require('jquery');
 if(typeof window !== 'undefined'){
     window.$ = window.jQuery = require('jquery');
 }
+
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 import dynamic from "next/dynamic";
 import { Container, Row, Col } from "reactstrap";
+import Image from "next/image";
 
 
 const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
     ssr: false,
+    responsive: {
+        0: {
+            items: 1,
+        },
+        400: {
+            items: 1,
+        },
+        600: {
+            items: 2,
+        },
+        700: {
+            items: 3,
+        },
+        1000: {
+            items: 5,
+
+        }
+    },
   });
 
 export default function Slider(){
@@ -50,9 +70,9 @@ export default function Slider(){
                     <OwlCarousel>
                         {
                             images.map((gambar, key) =>
-                            <div key={key} className="card card-white rounded align-items-center p-3 batasan">
+                            <div key={key} className="card card-white rounded align-items-center p-3 batasan full-width">                                
                                 <Col key={key} lg={4}>                                
-                                    <img src={gambar.image} className="img-fluid d-block h-3"/>
+                                    <Image src={gambar.image} height={290} width={200} className="mt-2 justify-content-center" objectFit="contain"/>
                                 </Col>
                             </div>                        
                             )

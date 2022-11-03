@@ -46,10 +46,11 @@ a {
   font-family: Arial, Helvetica, sans-serif;
  }
 
-.batasan{
-  height: 200px;
+.batasan{  
+  height: 220px;
   align-items: center;
   justify-items: center;
+  position: relative;
 }
 
 .back-to-top {
@@ -79,5 +80,9 @@ a {
 @media screen and (max-width: 768px) {
   #logo-hilang{
     display: none;
+  }
+
+  .batasan{      
+    height: 100%;
   }
 }
