@@ -16,7 +16,7 @@ export default function Hero(){
                                  <span className="text-primary font-weight-medium"> Name </span>
                             </h1>
                             <p className="text-justify mb-4 pb-2 text-dark font-desc">
-                                Lorem Ipsum has been the industyr's standard dummy text ever since the 1500s, when an uknumn printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                                Lorem Ipsum has been the industyrs standard dummy text ever since the 1500s, when an uknumn printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
                             </p>
                             <a href="#" className="btn btn-warning font-title">
                                 Find Out How <span className="ml-2 right-icon">&#8594;</span>

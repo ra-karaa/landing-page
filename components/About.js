@@ -15,18 +15,18 @@ export default function About(){
           <Row>
             <Col md={4}>
                 <h2 className="font-weight-light line-height-1_6 text-dark mb-4 font-desc">
-                    Lorem ipsum has been the insdustry's standard dummy text
+                    Lorem ipsum has been the insdustrys standard dummy text
                 </h2>
             </Col>            
             <Col md={{ size:7, offset:1 }}>
                 <Row>
                     <Col md={6}>
                         <h6 className="text-dark font-weigth-lightf-20 mb-3 font-title">Our Mission</h6>
-                        <p className="text-muted font-weight-light font-desc">Lorem Ipsum has been the industry's standard dummt text ever since the 1500s, whew an unknown printer rook a galley of type</p>
+                        <p className="text-muted font-weight-light font-desc">Lorem Ipsum has been the industrys standard dummt text ever since the 1500s, whew an unknown printer rook a galley of type</p>
                     </Col>
                     <Col md={6}>
                     <h6 className="text-dark font-weigth-lightf-20 mb-3 font-title">Our Mission</h6>
-                        <p className="text-muted font-weight-light font-desc">Lorem Ipsum has been the industry's standard dummt text ever since the 1500s, whew an unknown printer rook a galley of type</p>
+                        <p className="text-muted font-weight-light font-desc">Lorem Ipsum has been the industrys standard dummt text ever since the 1500s, whew an unknown printer rook a galley of type</p>
                     </Col>
                 </Row>
             </Col>

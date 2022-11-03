@@ -94,7 +94,7 @@ export default function Feature(){
                             <h3 className='font-weight-normal text-dark'>
                                 <span className='text-warning font-title'>Features</span>                                
                             </h3>
-                            <p className='text-muted font-desc'>Lorem Ipsum has been rhe insdustry's standard dummy text ever since the 1500s, when an unknown printer took a gallery of typa and scrambled it work to make a type sprcimen book</p>
+                            <p className='text-muted font-desc'>Lorem Ipsum has been rhe insdustrys standard dummy text ever since the 1500s, when an unknown printer took a gallery of typa and scrambled it work to make a type sprcimen book</p>
                         </div>
                     </Col>
                 </Row>

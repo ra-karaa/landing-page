@@ -50,7 +50,7 @@ export default function Slider(){
                     <OwlCarousel>
                         {
                             images.map((gambar, key) =>
-                            <div className="card card-white rounded align-items-center p-3 batasan">
+                            <div key={key} className="card card-white rounded align-items-center p-3 batasan">
                                 <Col key={key} lg={4}>                                
                                     <img src={gambar.image} className="img-fluid d-block h-3"/>
                                 </Col>
