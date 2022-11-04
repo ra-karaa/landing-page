@@ -20,12 +20,16 @@ export default function About(){
             <Col md={{ size:7, offset:1 }}>
                 <Row>
                     <Col md={6}>
-                        <h6 className="text-dark font-weigth-lightf-20 mb-3 font-title">Misi Kami</h6>
-                        <p className="text-muted font-weight-light font-desc">Lorem Ipsum has been the industrys standard dummt text ever since the 1500s, whew an unknown printer rook a galley of type</p>
+                        <h6 className="text-dark font-weigth-lightf-20 mb-3 font-title">Visi Kami</h6>
+                        <p className="text-muted font-weight-light font-desc">Menjadi sebuah perusahaan telematika yang mampu bersaing secara global
+                            sekaligus berkontribusi dalam pengabdian kepada masyarakat. </p>
                     </Col>
                     <Col md={6}>
-                    <h6 className="text-dark font-weigth-lightf-20 mb-3 font-title">Visi Kami</h6>
-                        <p className="text-muted font-weight-light font-desc">Lorem Ipsum has been the industrys standard dummt text ever since the 1500s, whew an unknown printer rook a galley of type</p>
+                    <h6 className="text-dark font-weigth-lightf-20 mb-3 font-title">Misi Kami</h6>
+                        <p className="text-muted font-weight-light font-desc">
+                        Memberikan solusi yang optimal kepada mitra kerja dalam mengatasi berbagai permasalahan yang di hadapi mitra kerja di industri teknologi informatika , Serta 
+                        Berusaha untuk mengubah mindset lingkungan atau daerah setempat untuk mempertimbangkan kesadaran akan kualitas sumber daya lokal.
+                        </p>
                     </Col>
                 </Row>
             </Col>
