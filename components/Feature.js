@@ -30,7 +30,7 @@ function FeatureBox(props) {
                             </div>
                             <h5 className='text-dark font-weigth-normal mb-3 pt-3 font-title'>{feature.title}</h5>
                             <p className='text-muted mb-3 f-15 font-desc'>{feature.desc}</p>
-                            <a href={feature.link} className="f-16 btn btn-warning font-title">Read More 
+                            <a href={feature.link} className="f-16 btn btn-warning font-title">Selengkapnya
                                 <span className='right-icon ml-2 mt-1'> &#8594; </span>
                             </a>
                         </div>
@@ -45,7 +45,7 @@ function FeatureBox(props) {
                             </div>
                             <h5 className='text-dark font-weight-normal mb-3 pt-3 font-title'>{feature.title}</h5>
                             <p className='text-muted mb-3 f-15 font-desc'>{feature.desc}</p>
-                            <a href={feature.link} className="f-16 btn btn-warning font-title">Read More 
+                            <a href={feature.link} className="f-16 btn btn-warning font-title">Selengkapnya
                                 <span className='right-icon ml-2'> &#8594; </span>
                             </a>
                         </div>                        
